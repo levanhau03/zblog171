@@ -157,16 +157,16 @@ function tpure_TimeAgo($ptime)
         $ptime = strtotime($ptime);
         $etime = time() - $ptime;
         if ($etime < 1) {
-            return '刚刚';
+            return 'vừa xong';
         }
         $interval = array(
-            12 * 30 * 24 * 60 * 60  => '年前<time class="datetime"> (' . date('Y-m-d', $ptime) . ')</time>',
-            30 * 24 * 60 * 60       => '个月前<time class="datetime"> (' . date('m-d', $ptime) . ')</time>',
-            7 * 24 * 60 * 60        => '周前<time class="datetime"> (' . date('m-d', $ptime) . ')</time>',
-            24 * 60 * 60            => '天前',
-            60 * 60                 => '小时前',
-            60                      => '分钟前',
-            1                       => '秒前',
+            12 * 30 * 24 * 60 * 60  => ' năm trước<time class="datetime"> (' . date('Y-m-d', $ptime) . ')</time>',
+            30 * 24 * 60 * 60       => ' tháng trước<time class="datetime"> (' . date('m-d', $ptime) . ')</time>',
+            7 * 24 * 60 * 60        => ' tuần trước<time class="datetime"> (' . date('m-d', $ptime) . ')</time>',
+            24 * 60 * 60            => ' ngày trước',
+            60 * 60                 => ' tiếng trước',
+            60                      => ' phút trước',
+            1                       => ' vừa xong',
         );
         foreach ($interval as $secs => $str) {
             $d = $etime / $secs;
