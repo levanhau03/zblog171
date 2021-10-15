@@ -264,13 +264,13 @@ function Setup1()
         <textarea readonly>
     <?php echo $zbp->lang['zb_install']['license_title'] . "\r\n"; ?>
 
-感谢您选择Z-BlogPHP。 Z-BlogPHP 基于 PHP 技术开发，采用 MySQL 或 SQLite 或 PostgreSQL 作为数据库，全部源码开放。她既是博客程序，也是CMS建站系统。已走过十余年风雨的她们，有着强大的可定制性、丰富的主题和插件，致力于给国内用户提供优秀的博客写作体验。期待能成为您写博客的第一选择。
+Cảm ơn bạn đã chọn Z-BlogPHP. Z-BlogPHP được phát triển dựa trên công nghệ PHP, sử dụng MySQL, SQLite hoặc PostgreSQL làm cơ sở dữ liệu và tất cả mã nguồn đều mở. Họ đã trải qua hơn mười năm thăng trầm, với khả năng tùy biến mạnh mẽ, chủ đề và plugin phong phú, đồng thời cam kết mang đến cho người dùng trong nước trải nghiệm viết blog tuyệt vời. Mong được trở thành sự lựa chọn đầu tiên của bạn cho việc viết blog.
 
-Z-BlogPHP官方网址：https://www.zblogcn.com/
+Trang web chính thức của Z-BlogPHP:https://www.zblogcn.com/
 
-为了使您正确并合法的使用本软件，请您在使用前务必阅读清楚下面的协议条款：
+Để cho phép bạn sử dụng phần mềm này một cách chính xác và hợp pháp, vui lòng đảm bảo đọc các điều khoản thỏa thuận sau đây trước khi sử dụng:
 
-一、本授权协议适用且仅适用于 Z-BlogPHP。
+I. Thỏa thuận cấp phép này được áp dụng và chỉ áp dụng cho Z-BlogPHP.
 
 二、协议许可的权利
 1. 本程序基于 MIT 协议开源，您可以在 MIT 协议允许的范围内对源代码进行使用，包括修改源代码或界面风格以适应您的网站要求。
