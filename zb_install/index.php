@@ -1,39 +1,5 @@
 <?php
 
-/**
- * Z-Blog with PHP.
- *
- * @author  Z-BlogPHP Team
- * @version 2.0 2013-07-05
- */
-/**
- *****************************************************************************************************
- *    如果您看到了这个提示，那么我们很遗憾地通知您，您的空间不支持 PHP 。
- *    也就是说，您的空间可能是静态空间，或没有安装PHP，或没有为 Web 服务器打开 PHP 支持。
- *    Sorry, PHP is not installed on your web hosting if you see this prompt.
- *    Please check out the PHP configuration.
- *
- *    如您使用虚拟主机：
- *
- *        > 联系空间商，更换空间为支持 PHP 的空间。
- *        > Contact your service provider, and let them provice a new service which supports PHP.
- *
- *    如您自行搭建服务器，推荐您：
- *    Configuring manually? Recommend:
- *
- *        > 访问 PHP 官方网站获取安装帮助。
- *        > Visit PHP Official Website to get the documentation of installion and configuration.
- *        > http://php.net
- *
- ******************************************************************************************************
- */
-/**
- * 安装程序.
- *
- * @param
- *
- * @return array
- */
 date_default_timezone_set('UTC');
 
 require '../zb_system/function/c_system_base.php';
@@ -272,12 +238,11 @@ Trang web chính thức của Z-BlogPHP:https://www.zblogcn.com/
 
 I. Thỏa thuận cấp phép này được áp dụng và chỉ áp dụng cho Z-BlogPHP.
 
-二、协议许可的权利
-1. 本程序基于 MIT 协议开源，您可以在 MIT 协议允许的范围内对源代码进行使用，包括修改源代码或界面风格以适应您的网站要求。
-2. 您拥有使用本软件构建的网站及其全部内容的所有权，并独立承担与这些内容的相关法律义务。
-3. 如您需要使用Z-Blog应用中心，您需要在应用中心内同意《应用中心额外条款及最终用户许可协议》。
+II. Các quyền được thỏa thuận cho phép
+1. Chương trình này là mã nguồn mở dựa trên thỏa thuận MIT, bạn có thể sử dụng mã nguồn trong phạm vi được thỏa thuận MIT cho phép.
+2. Bạn chịu trách nhiệm pháp lý một cách độc lập liên quan đến những nội dung này.
 
-三、协议规定的约束和限制
+III. Các hạn chế và hạn chế quy định trong thỏa thuận
 1. 无论如何，即无论用途如何、是否经过修改或美化、修改程度如何，只要使用 Z-BlogPHP 程序本身，未经书面许可，必须保留页面底部的版权（Powered by Z-BlogPHP），不得删除；但可以以任何访客可见的形式对其进行修改和美化。
 2. 如果您未能遵守本协议的条款，您的授权将被终止，所被许可的权利将被收回，并承担相应法律责任。
 
