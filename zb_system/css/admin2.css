@@ -139,7 +139,7 @@ tr.color3 { background: #ffffff; }
 tr.color4 { background: #ffffdd; }
 .tableBorder { line-height: 1.8em; margin-bottom: 0.8em; margin-top: 0.4em; -ms-text-size-adjust: 100%; /*用于解决IE10 for WP8字体过大的问题*/ }
 .tableBorder th { text-align: left; }
-.tableBorder-thcenter th { text-align: center; }
+.tableBorder-thcenter th { text-align: left; }
 .ui-sortable tr.color4 { cursor: move; }
 .noteinfo { font-weight: normal; font-size: 0.9em; color: #666; font-style: italic; }
 .tableFull { width: 100%; }

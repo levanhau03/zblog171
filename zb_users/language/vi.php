@@ -45,7 +45,7 @@ return array(
         'homepage'                          => 'Trang chủ',
         'anonymous'                         => 'Ẩn danh',
         'unnamed'                           => 'Vô danh',
-        'filename'                          => 'Tên tệ',
+        'filename'                          => 'Tên tệp',
         'htmlid'                            => 'HTML ID',
         'size'                              => 'Kích thước',
         'none'                              => 'Không',

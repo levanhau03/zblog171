@@ -79,7 +79,7 @@ $zbp->template->SetTags('item', LinksManage_GetNewItem());
 $new_tr = $list = $zbp->template->Output($outTpl);
 $new_tr = str_replace('<tr class="">', '<tr class="LinksManageAdd">', $new_tr);
 
-// $list = '<tr><td><input type="text" name="href[]" value="http://" size="30" /></td><td><input type="text" name="ico[]" value="" size="15" /></td><td><input type="text" name="title[]" value="链接描述" size="30" /></td><td><input type="text" name="name[]" value="新名称" size="20" /></td><td><input type="text" name="target[]" class="checkbox" value="0" /></td><td><input type="text" name="sub[]" class="checkbox" value="0" /></td></tr>';
+// $list = '<tr><td><input type="text" name="href[]" value="http://" size="30" /></td><td><input type="text" name="ico[]" value="" size="15" /></td><td><input type="text" name="title[]" value="Mô tả liên kết" size="30" /></td><td><input type="text" name="name[]" value="Tên mới" size="20" /></td><td><input type="text" name="target[]" class="checkbox" value="0" /></td><td><input type="text" name="sub[]" class="checkbox" value="0" /></td></tr>';
 
 $islock = '';
 $tree = null;
@@ -148,17 +148,17 @@ if ($edit = GetVars('edit', 'GET')) {
   if ($mod->Source == 'system' || $mod->Source == 'theme' || $mod->FileName !== "") {
     $islock = 'readonly="readonly"';
   }
-  $delbtn = $mod->Source === 'plugin_LinksManage' ? '&nbsp;<a title="删除当前模块"
+  $delbtn = $mod->Source === 'plugin_LinksManage' ? '&nbsp;<a title="Xóa mô-đun hiện tại"
     onclick="return window.confirm(\'' . $zbp->lang['msg']['confirm_operating'] . '\');"
     href="' . BuildSafeCmdURL('act=ModuleDel&amp;source=theme&amp;filename=' . $mod->FileName) . '"><img
-      src="' . $zbp->host . 'zb_system/image/admin/delete.png" alt="删除" title="删除" width="16"></a>' : '';
+      src="' . $zbp->host . 'zb_system/image/admin/delete.png" alt="Xóa" title="Xóa" width="16"></a>' : '';
   $bakFile = LinksManage_Path("bakdir") . "{$mod->FileName}.txt";
   if (is_file($bakFile)) {
     $bakUrl = str_replace($zbp->path, $zbp->host, $bakFile);
   }
 }
 
-$blogtitle = '链接管理';
+$blogtitle = 'Quản lý liên kết';
 $blogtitle .= $mod->Name !== "" ? "（{$mod->Name}）" : "";
 require $blogpath . 'zb_system/admin/admin_header.php';
 require $blogpath . 'zb_system/admin/admin_top.php';
@@ -174,12 +174,12 @@ require $blogpath . 'zb_system/admin/admin_top.php';
       <table class="tableFull tableBorder tableBorder-thcenter">
         <thead>
           <tr>
-            <th>链接</th>
-            <th class="td10">描述</th>
-            <th class="td10">文本</th>
-            <th class="td5"><abbr title="是否在新窗口打开">新窗</abbr></th>
-            <th class="td5"><abbr title="作为前一个一级链接的二级链接">二级</abbr></th>
-            <th>图标（class属性值）</th>
+            <th>Liên kết</th>
+            <th class="td10">Mô tả</th>
+            <th class="td10">Tiêu đề</th>
+            <th class="td5"><abbr title="Mở trong một cửa sổ mới">Cửa sổ</abbr></th>
+            <th class="td5"><abbr title="Là một liên kết phụ của liên kết chính trước đó">Cấp 2</abbr></th>
+            <th>Biểu tượng</th>
           </tr>
         </thead>
         <tbody id="LinksManageList">
@@ -187,10 +187,10 @@ require $blogpath . 'zb_system/admin/admin_top.php';
         </tbody>
         <tfoot>
           <tr id="LinksManageAdd">
-            <td colspan="6" class="tdCenter"><input type="button" class="button js-add" value="添加项目"> <input type="button" class="js-search" value="搜索分类/页面"> 已有项目可拖动排序或删除</td>
+            <td colspan="6" class="tdCenter"><input type="button" class="button js-add" value="Thêm mục"> <input type="button" class="js-search" value="Tìm kiếm danh mục / trang"> Các mục hiện có có thể được kéo để sắp xếp hoặc xóa</td>
           </tr>
           <tr id="LinksManageDel">
-            <td colspan="6" class="tdCenter">拖入这里删除</td>
+            <td colspan="6" class="tdCenter">Kéo vào đây để xóa</td>
           </tr>
           <!-- tr class="LinksManageAdd" -->
           <?php echo $new_tr; ?>
@@ -199,12 +199,12 @@ require $blogpath . 'zb_system/admin/admin_top.php';
       </table>
       <table class="tableFull tableBorder tableBorder-thcenter">
         <tr>
-          <th><?php echo $lang['msg']['name'] ?>（简明的中文标识）</th>
-          <th><?php echo $lang['msg']['filename'] ?>（非中文且文件命名可用）</th>
-          <th><?php echo $lang['msg']['htmlid'] ?>（留空将使用文件名）</th>
+          <th><?php echo $lang['msg']['name'] ?>(Logo ngắn gọn)</th>
+          <th><?php echo $lang['msg']['filename'] ?>(có thể đặt tên tệp)</th>
+          <th><?php echo $lang['msg']['htmlid'] ?>(Để trống để sử dụng tên tệp)</th>
           <th class="td10"><?php echo $lang['msg']['hide_title'] ?></th>
           <th class="td10"><?php echo $lang['msg']['del'] ?></th>
-          <th class="td10 hidden"><abbr title="关闭树形则采用嵌套格式，即二级菜单默认隐藏">树形[?]</abbr></th>
+          <th class="td10 hidden"><abbr title="Đóng cây để sử dụng định dạng lồng nhau, nghĩa là menu phụ bị ẩn theo mặc định">Hình cây[?]</abbr></th>
         </tr>
         <tr>
           <td><input id="edtName" size="20" name="Name" maxlength="50" type="text" value="<?php echo $mod->Name; ?>" /></td>
@@ -218,18 +218,18 @@ require $blogpath . 'zb_system/admin/admin_top.php';
       </table>
       <p>
         <input type="submit" class="button" value="<?php echo $lang['msg']['submit'] ?>" onclick="return checkInfo();" />
-        <input type="text" name="stay" class="checkbox" value="1" /> 提交后返回本页
+        <input type="text" name="stay" class="checkbox" value="1" /> Trở lại trang này sau khi gửi
         <?php if (isset($bakUrl)) { ?>
-          <a title="查看备份" href="<?php echo $bakUrl; ?>" target="_blank">查看备份（<?php echo $mod->FileName; ?>）</a>
-          [直接打开会乱码，请另存到本地查看，停用链接管理插件时会恢复进模块，但是上述配置不会丢失]
+          <a title="Xem bản sao lưu" href="<?php echo $bakUrl; ?>" target="_blank">Xem bản sao lưu（<?php echo $mod->FileName; ?>）</a>
+          [Khi bạn tắt plugin quản lý liên kết, nó sẽ được khôi phục vào mô-đun, nhưng cấu hình trên sẽ không bị mất]
         <?php } ?>
       </p>
       ------
-      <p>对于每个li，会默认添加 "文件名-item" 作为类名，当前为：<?php echo "{$mod->FileName}-item"; ?></p>
-      <p>主题作者可设置<b>lm-module-<?php echo "{$mod->FileName}"; ?></b>模板对当前模块进行自定义</p>
-      <p>参考：zb_users/plugin/LinksManage/var/li.html</p>
-      <p>自定义通用模板：zb_users/plugin/LinksManage/usr/li.html（不推荐）</p>
-      <p>通用模板编译为<b>lm-module-defend</b></p>
+      <p>Đối với mỗi li, "file name-item" sẽ được thêm làm tên lớp theo mặc định, hiện tại: <?php echo "{$mod->FileName}-item"; ?></p>
+      <p>Tác giả chủ đề có thể đặt mẫu <b>lm-module-<?php echo "{$mod->FileName}"; ?></b> để tùy chỉnh mô-đun hiện tại</p>
+      <p>Tham khảo: zb_users/plugin/LinksManage/var/li.html</p>
+      <p>Mẫu chung tùy chỉnh: zb_users/plugin/LinksManage/usr/li.html (Không được khuyến khích)</p>
+      <p>Mẫu chung được biên dịch dưới dạng <b>lm-module-defend</b></p>
     </form>
   </div>
 </div>
