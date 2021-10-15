@@ -24,8 +24,8 @@ function LinksManage_Ajax($src)
   $objResult = array();
   $q = GetVars('q', 'GET');
   if (empty($q)) {
-    $objResult[] = array("Title" => "首页", "Url" => $zbp->host);
-    $objResult[] = array("Title" => "管理", "Url" => "{$zbp->host}zb_system/cmd.php?act=login");
+    $objResult[] = array("Title" => "Trang chủ", "Url" => $zbp->host);
+    $objResult[] = array("Title" => "Quản lý", "Url" => "{$zbp->host}zb_system/cmd.php?act=login");
   }
   // 分类
   $w = array();
@@ -105,7 +105,7 @@ function LinksManage_ModuleMenu()
     $mods[] = $mod->FileName;
   }
 
-  $str = '<a href="' . LinksManage_Path("main", "host") . '" class="LinksManage"><span class="m-left">新建链接模块</span></a>';
+  $str = '<a href="' . LinksManage_Path("main", "host") . '" class="LinksManage"><span class="m-left">Mô-đun liên kết mới</span></a>';
 
   $url = LinksManage_Path("main", "host");
   $mod = LinksManage_Path("bakfile") . '|' . implode('|', $mods);
@@ -127,7 +127,7 @@ function LinksManage_Head()
 function LinksManage_AddMenu()
 {
   global $zbp;
-  echo '<a href="' . LinksManage_Path("main.php?edit=navbar", "host") . '" class="LinksManage"><span class="m-left">导航管理</span></a>';
+  echo '<a href="' . LinksManage_Path("main.php?edit=navbar", "host") . '" class="LinksManage"><span class="m-left">Quản lý điều hướng</span></a>';
 }
 function LinksManage_AddItem2Mod($item, $fileName)
 {
