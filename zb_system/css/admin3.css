@@ -24,7 +24,7 @@ textarea { height: 360px; width: 600px; border: none; }
 #ddleft b { color: #3d69aa; }
 #ddleft span { border: 1px solid gray; padding-bottom: 1px\9; }
 p { line-height: 2.5em; clear: both; }
-#content b { font-weight: blod; width: 120px; float: left; }
+#content b { font-weight: blod; width: 190px; float: left; }
 #content small { font-size: 0.9em; }
 label { cursor: pointer; }
 textarea{padding:0.5em;box-shadow:0 0 0.5em rgba(0,0,0,0.2);}
