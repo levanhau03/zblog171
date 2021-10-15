@@ -243,32 +243,32 @@ II. Các quyền được thỏa thuận cho phép
 2. Bạn chịu trách nhiệm pháp lý một cách độc lập liên quan đến những nội dung này.
 
 III. Các hạn chế và hạn chế quy định trong thỏa thuận
-1. 无论如何，即无论用途如何、是否经过修改或美化、修改程度如何，只要使用 Z-BlogPHP 程序本身，未经书面许可，必须保留页面底部的版权（Powered by Z-BlogPHP），不得删除；但可以以任何访客可见的形式对其进行修改和美化。
-2. 如果您未能遵守本协议的条款，您的授权将被终止，所被许可的权利将被收回，并承担相应法律责任。
+1. Trong mọi trường hợp, bất kể mục đích, sửa đổi hay làm đẹp hay mức độ sửa đổi, miễn là chính chương trình Z-BlogPHP được sử dụng, bản quyền ở cuối trang (Cung cấp bởi Z- BlogPHP) phải được giữ lại mà không có sự cho phép bằng văn bản và không thể bị xóa; Nhưng nó có thể được sửa đổi và làm đẹp dưới bất kỳ hình thức nào mà khách truy cập có thể nhìn thấy được.
+2. Nếu bạn không tuân thủ các điều khoản của thỏa thuận này, ủy quyền của bạn sẽ bị chấm dứt, các quyền được cấp phép sẽ bị lấy lại và bạn sẽ phải chịu các trách nhiệm pháp lý tương ứng.
 
-四、有限担保和免责声明
-1. 本软件及所附带的文件是作为不提供任何明确的或隐含的赔偿或担保的形式提供的。
-2. 用户出于自愿而使用本软件，您必须了解使用本软件的风险，包括系统受损、资料丢失以及其它任何风险。在尚未购买产品技术服务之前，我们不承诺对免费用户提供任何形式的技术支持、使用担保，也不承担任何因使用本软件而产生问题的相关责任。
-3. 电子文本形式的授权协议如同双方书面签署的协议一样，具有完全的和等同的法律效力。您一旦开始确认本协议并安装 Z-BlogPHP ，即被视为完全理解并接受本协议的各项条款，在享有上述条款授予的权力的同时，受到相关的约束和限制。协议许可范围以外的行为，将直接违反本授权协议并构成侵权，我们有权随时终止授权，责令停止损害，并保留追究相关责任的权力。
+IV. Bảo hành có giới hạn và tuyên bố từ chối trách nhiệm
+1. Phần mềm và các tệp đính kèm được cung cấp như một hình thức không cung cấp bất kỳ khoản bồi thường hoặc đảm bảo rõ ràng hoặc ngầm hiểu nào.
+2. Khi người dùng sử dụng phần mềm này một cách tự nguyện, bạn phải hiểu các rủi ro khi sử dụng phần mềm này, bao gồm thiệt hại hệ thống, mất dữ liệu và bất kỳ rủi ro nào khác. Trước khi mua sản phẩm và dịch vụ kỹ thuật, chúng tôi không hứa cung cấp cho người dùng miễn phí bất kỳ hình thức hỗ trợ kỹ thuật, đảm bảo sử dụng nào, cũng như không chịu bất kỳ trách nhiệm liên quan nào đối với các vấn đề phát sinh từ việc sử dụng phần mềm này.
+3. Thỏa thuận ủy quyền dưới hình thức văn bản điện tử giống như thỏa thuận được hai bên ký kết bằng văn bản, có hiệu lực pháp lý đầy đủ và tương đương. Khi bạn bắt đầu xác nhận thỏa thuận này và cài đặt Z-BlogPHP, bạn được coi là đã hiểu đầy đủ và chấp nhận các điều khoản của thỏa thuận này. Trong khi được hưởng các quyền theo các điều khoản trên, bạn phải tuân theo các ràng buộc và hạn chế có liên quan. Hành vi nằm ngoài phạm vi của thỏa thuận sẽ trực tiếp vi phạm thỏa thuận ủy quyền này và cấu thành hành vi vi phạm. Chúng tôi có quyền chấm dứt ủy quyền bất kỳ lúc nào, ra lệnh dừng thiệt hại và có quyền truy cứu trách nhiệm pháp lý có liên quan.
 
-版权所有 ©2005 - 2020，保留所有权利。
+Bản quyền © 2005-2020, mọi quyền được bảo lưu.
 
-协议发布时间：2013 年 8 月 1 日
-版本最新更新：2019 年 12 月 16 日
+Thời gian phát hành thỏa thuận: ngày 1 tháng 8 năm 2013
+Cập nhật phiên bản mới nhất: 16 tháng 12, 2019
 
-    Z-BlogPHP免责申明
+    Tuyên bố từ chối trách nhiệm của Z-BlogPHP
 
-(一)、ZBLOGCN.COM提供免费开源的建站程序Z-Blog和Z-BlogPHP，不提供网站相关的内容服务，该建站程序之著作权归ZBLOGCN.COM所有。
+(1) ZBLOGCN.COM cung cấp các chương trình xây dựng trang web mã nguồn mở miễn phí Z-Blog và Z-BlogPHP, nhưng không cung cấp các dịch vụ nội dung liên quan đến trang web. Bản quyền của chương trình xây dựng trang web thuộc về ZBLOGCN.COM.
 
-(二)、用户可自由选择是否使用我们的建站程序，ZBLOGCN.COM与用户使用我们的建站程序所建立的网站无任何关联，ZBLOGCN.COM对用户及其网站不承担任何责任。
+(2) Người sử dụng có thể tự do lựa chọn sử dụng chương trình xây dựng trang web của chúng tôi ZBLOGCN.COM không liên quan đến trang web do người dùng thiết lập bằng chương trình xây dựng trang web của chúng tôi.
 
-(三)、用户下载、安装、使用本建站程序，即表明用户信任ZBLOGCN.COM，ZBLOGCN.COM对任何原因在使用本建站程序时可能对用户自己或他人造成的任何形式的损失和伤害不承担责任。
+(3). Người dùng tải xuống, cài đặt và sử dụng chương trình xây dựng trang web này, có nghĩa là người dùng tin tưởng ZBLOGCN.COM. ZBLOGCN.COM không chịu trách nhiệm về bất kỳ hình thức mất mát và thương tích nào có thể gây ra cho người dùng hoặc những người khác khi sử dụng chương trình xây dựng trang web này vì bất kỳ lý do gì.
 
-(四)、任何单位或个人认为使用本建站程序建立的网站可能涉嫌侵犯其合法权益的，应该及时向该网站的所有人反映、交涉、或诉诸法律手段。
+(4) Bất kỳ đơn vị hoặc cá nhân nào cho rằng một trang web được thành lập bằng chương trình xây dựng trang web này có thể bị nghi ngờ vi phạm quyền lợi hợp pháp của mình cần nhanh chóng báo cáo, thương lượng hoặc sử dụng các biện pháp hợp pháp cho chủ sở hữu của trang web.
 
-(五)、使用本建站程序的用户因为违反本声明的规定而触犯中华人民共和国法律的，一切后果自己负责，ZBLOGCN.COM不承担任何责任。
+(5) Nếu người dùng sử dụng chương trình xây dựng trang web này vi phạm các quy định của bản tuyên bố này và vi phạm pháp luật của Cộng hòa Nhân dân Trung Hoa thì sẽ phải chịu mọi hậu quả và ZBLOGCN.COM sẽ không chịu bất kỳ trách nhiệm nào.
 
-(六)、本声明未涉及的问题参见国家有关法律法规，当本声明与国家法律法规冲突时，以国家法律法规为准。
+(6) Đối với các vấn đề không được đề cập trong tuyên bố này, vui lòng tham khảo luật và quy định quốc gia có liên quan. Khi tuyên bố này mâu thuẫn với luật và quy định quốc gia, luật và quy định quốc gia sẽ được ưu tiên áp dụng.
 
   </textarea>
       </div>
