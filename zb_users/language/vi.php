@@ -44,7 +44,7 @@ return array(
         'email'                             => 'Hộp thư',
         'homepage'                          => 'Trang chủ',
         'anonymous'                         => 'Ẩn danh',
-        'unnamed'                           => 'Vô danh',
+        'unnamed'                           => 'Chưa có',
         'filename'                          => 'Tên tệp',
         'htmlid'                            => 'HTML ID',
         'size'                              => 'Kích thước',

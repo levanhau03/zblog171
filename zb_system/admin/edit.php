@@ -316,7 +316,7 @@ require ZBP_PATH . 'zb_system/admin/admin_top.php';
                                 ?>
                                 <div id='istop' class="editmod">
                                     <label for="edtIstop" class="editinputname"><?php echo $lang['msg']['top']; ?></label>
-                                    <select style="width:80px;" size="1" name="IsTop" id="edtIstopType" class="off-hide">
+                                    <select style="width:100px;" size="1" name="IsTop" id="edtIstopType" class="off-hide">
                                         <?php echo OutputOptionItemsOfIsTop($article->IsTop); ?>
                                     </select>
                                 </div>
