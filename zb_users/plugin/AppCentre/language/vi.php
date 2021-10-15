@@ -1,7 +1,7 @@
 <?php
 return array(
-    'name' => 'Trung tâm ứng dụng',
-    'app_name' => '应用中心(客户端)',
+    'name' => 'Ứng dụng',
+    'app_name' => 'Ứng dụng (Khách hàng)',
     'system_update' => '系统更新与校验',
     'database_update' => '升级数据库结构',
     'current_version' => '当前版本',
