@@ -42,7 +42,7 @@ function tpure_SubMenu($id)
 function tpure_AddMenu(&$m)
 {
     global $zbp;
-    $m[] = MakeTopMenu("root", '主题设置', $zbp->host . "zb_users/theme/tpure/main.php?act=base", "", "topmenu_tpure");
+    $m[] = MakeTopMenu("root", 'Cài đặt chủ đề', $zbp->host . "zb_users/theme/tpure/main.php?act=base", "", "topmenu_tpure");
 }
 
 function tpure_Header()

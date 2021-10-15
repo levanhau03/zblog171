@@ -333,7 +333,7 @@ return array(
         'ModuleEdt'   => 'Edit Module',
         'ModulePst'   => 'Update Module',
         'ModuleDel'   => 'Delete Module',
-        'ThemeSet'    => 'Theme Settings',
+        'ThemeSet'    => 'Cài đặt chủ đề',
         'SidebarSet'  => 'Sidebar Settings',
         'SettingSav'  => 'Update Settings',
         'ArticleMng'  => 'Posts',
