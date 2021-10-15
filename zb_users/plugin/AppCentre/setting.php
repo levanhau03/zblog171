@@ -81,9 +81,9 @@ require $blogpath . 'zb_system/admin/admin_top.php';
                   <td width="30%" align="left"><p><b>· <?php echo $zbp->lang['AppCentre']['connect_type_background']; ?></b><br/>
                       <span class="note">&nbsp;&nbsp;<?php echo $zbp->lang['AppCentre']['connect_type_background_note']; ?></span></p></td>
                   <td>
-<label><input name="app_networktype" type="radio" value="curl" <?php echo $zbp->Config('AppCentre')->networktype == 'curl' ? 'checked="checked"' : ''; ?> />curl(<?php echo $zbp->lang['msg']['default']; ?>)</label>&nbsp;&nbsp;&nbsp;&nbsp;
-<label><input name="app_networktype" type="radio" value="fsockopen" <?php echo $zbp->Config('AppCentre')->networktype == 'fsockopen' ? 'checked="checked"' : ''; ?> />fsockopen</label>&nbsp;&nbsp;&nbsp;&nbsp;
-<label><input name="app_networktype" type="radio" value="filegetcontents" <?php echo $zbp->Config('AppCentre')->networktype == 'filegetcontents' ? 'checked="checked"' : ''; ?> />filegetcontents</label>&nbsp;&nbsp;&nbsp;&nbsp;
+<label><input name="app_networktype" type="radio" value="curl" <?php echo $zbp->Config('AppCentre')->networktype == 'curl' ? 'checked="checked"' : ''; ?> />&nbsp;curl(<?php echo $zbp->lang['msg']['default']; ?>)</label>&nbsp;&nbsp;&nbsp;&nbsp;
+<label><input name="app_networktype" type="radio" value="fsockopen" <?php echo $zbp->Config('AppCentre')->networktype == 'fsockopen' ? 'checked="checked"' : ''; ?> />&nbsp;fsockopen</label>&nbsp;&nbsp;&nbsp;&nbsp;
+<label><input name="app_networktype" type="radio" value="filegetcontents" <?php echo $zbp->Config('AppCentre')->networktype == 'filegetcontents' ? 'checked="checked"' : ''; ?> />&nbsp;filegetcontents</label>&nbsp;&nbsp;&nbsp;&nbsp;
                   </td>
                 </tr>
                 <tr height="32">
